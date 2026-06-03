@@ -5,12 +5,12 @@
 ---
 
 ## 📌 Project Overview
-[cite_start]This repository provides a modular, object-oriented Java prototype that simulates a multi-region gaming backend infrastructure across three distinct zones: **Asia (Node-A)**, **Europe (Node-B)**, and the **United States (Node-C)**[cite: 304, 311, 427]. The primary goal is to evaluate the system's operational trade-offs across three fundamental distributed computing dimensions:
+This repository provides a modular, object-oriented Java prototype that simulates a multi-region gaming backend infrastructure across three distinct zones: **Asia (Node-A)**, **Europe (Node-B)**, and the **United States (Node-C)**[cite: 304, 311, 427]. The primary goal is to evaluate the system's operational trade-offs across three fundamental distributed computing dimensions:
 
-* [cite_start]**Process & Thread Management:** Leverages concurrent player execution threads decoupled from asynchronous worker pools to simulate global peak gaming traffic without blocking issues[cite: 304, 318, 319].
-* [cite_start]**Naming & Resource Discovery:** Implements a dual-mode service registry capable of resolving node coordinates through **Flat Naming** (direct Hash Table maps) or **Structured Naming** (hierarchical DNS-like tree lookups)[cite: 305, 371].
-* [cite_start]**Data Replication & Consistency Strategy:** Operates a configurable replication engine enabling runtime toggling between **Sequential Consistency** (strict synchronous syncing) and **Eventual Consistency** (asynchronous background updates with simulated global network latency)[cite: 306, 416].
-* [cite_start]**Fault Tolerance:** Analyzes system behavior, cluster divergence, and data availability under an injected, abrupt regional server crash scenario[cite: 307, 429].
+* Process & Thread Management:** Leverages concurrent player execution threads decoupled from asynchronous worker pools to simulate global peak gaming traffic without blocking issues[cite: 304, 318, 319].
+* Naming & Resource Discovery:** Implements a dual-mode service registry capable of resolving node coordinates through **Flat Naming** (direct Hash Table maps) or **Structured Naming** (hierarchical DNS-like tree lookups)[cite: 305, 371].
+* *Data Replication & Consistency Strategy:** Operates a configurable replication engine enabling runtime toggling between **Sequential Consistency** (strict synchronous syncing) and **Eventual Consistency** (asynchronous background updates with simulated global network latency)[cite: 306, 416].
+* Fault Tolerance:** Analyzes system behavior, cluster divergence, and data availability under an injected, abrupt regional server crash scenario[cite: 307, 429].
 
 ---
 
